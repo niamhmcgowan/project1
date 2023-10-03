@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" context="IE-edge"
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+</head>
+<body>
+    <font color="red"
+    <h1 style="background-color:yellow;">
+    Zachary Morgan
+    </h1>
+    <h3 style="background-color:yellow;">
+    NJIT zsm8 BArch</h3></font>
+    <p><font color="00FF00"
+    I am an architectual student at NJIT in HCAD. I'm taking this<br>computer science course to hopefully stengthen my skills to use<br>computers as a tool to help wth my projects. I currently work at Robert<br>Wood Johnson University Hospital in New Brunswick and commute to both<br>school and work from home. I commit almost all of my time to these two<br>commitments to help disipline myself to prepare for my future.
+    </font>
+    
+    </p>
+    <br><a href="https://www.njit.edu/academics/degree/bachelor-architecture-barch">
+    NJIT BArch information
+    </a>
+    <br><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS35jf4PX9bEiDwWPureicdULUCIpdEudHo4g&usqp=CAU"> 
+</body>
+<style media="screen">
+    ::selection {
+        background-color: yellow;
+    }
+</style>
+</html>
