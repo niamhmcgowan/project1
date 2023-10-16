@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+    <html>
+        <head> 
+            <link rel="stylesheet"href="code.css"></head>
+        </head>
+        <head><title>Personal Porfolio</title></head><body>
+             <h1>Abigail Malia-Koudoha<h1>
+             </h1> "Lab-HTML-1</h1>
+             <h1 style="background-color:#ffddf4;"> 
+        </body> <h2>First Year Student at NJIT School of Architecture & Design <br> Major: Interior Design <br> UCID: agm45 <br>  <a href = "https://www.njit.edu/" target = "_self">NJIT website</a></h2> 
+      
+
+<body style="background-color:#ffddf4;"> 
+ 
+    <h/r>
+
+
+ style="width:50%">
+    <tr>
+         <th>First Name</th>
+         <th>Last Name</th>
+         <th>Program</th>
+    </tr>
+    <tr>
+        <td rowspan="2">Abigail</td>
+        <td>Malia-Koudoha</td>
+        <td>Interior Design</td>
+    </tr>
+    <tr>  
+</tr>
+</table> 
+<hr>
+<div>
+    <ul>
+       
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About Page</a></li>
+        <li><a href="#">Contact Page</a></li>
+    </ul>
+</div>
+
+
+<div>
+    <ol type="I"> 
+        <li>Music</li>
+        <li>Art</li>
+        <li>Cooking</li>
+    
+    </ol>
+ </div>
+
+
+<div style="margin-top:  100px">
+<form>
+    <label for="Username">Username</label>
+    <input type="text" placeholder="Username"> 
+    <br>
+    <label for="Password">Password</label>
+    <input type="password">
+    <br>
+    <input type="radio" name="course">
+ Math 107
+    <input type="radio" name="course">
+ English 101
+    <input type="radio" name="course">
+ First year Seminar
+    <input type="radio" name="course">
+ Color & Composition
+    <input type="radio" name="course">
+ Computer Aided Design
+    <input type="radio" name="course">
+History of Art and Design
+    <br>
+    <input type="checkbox">  Math 107
+    <input type="checkbox">  English 101
+    <input type="checkbox">  First Year Seminar
+    <input type="checkbox">  Color & Composition
+    <input type="checkbox">  Computer Aided Design
+    <input type="checkbox">  History of Art and Design
+
+    <br>
+    <input type="file">
+    <input type="submit">
+</form>
+
+
+</div>
+
+
+</html> 
+
+table,th,td{
+    border-style: solid;
+    width: 2px;
+    color:black;
+    margin-top: 100px; 
+    margin-bottom:100px;
+    margin-left:100px;
+    margin-right:100px;
+    }
+   th{
+    background-colr: lightgray; 
+    padding: 10px;
+    } 
+  td{
+    padding: 10px;
+  }
+
+   
+</style>
+<img src="https://th.bing.com/th/id/R.83f9582dee4ed46750a5501def3720d0?rik=aOICORWMSd5yzw&riu=http%3a%2f%2fwallpapercave.com%2fwp%2fd1oFZMe.jpg&ehk=spXHECCXZ9LoUcW%2b6tI0zu9hJm0SDpV2E6cG9TefIWM%3d&risl=&pid=ImgRaw&r=0 " class=img1
+alt="Beach" width="150in" height="150in">
+<img src="https://wallpapercave.com/wp/wp6344761.jpg" class=img2
+alt="The Weekend" width="150in" height="150in">
+<img src=" https://th.bing.com/th/id/OIP.OfneHgyL736N5qkesQosDAHaE2?w=282&h=185&c=7&r=0&o=5&dpr=1.3&pid=1.7" class=img3
+alt="Rome" width="150in" height="150in">
+</div>
+</html>
