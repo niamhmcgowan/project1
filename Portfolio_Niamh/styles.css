@@ -1,0 +1,76 @@
+head{ 
+    background-color: skyblue;
+    text-align: center;
+    color: black;
+}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+h1{
+    background-color: lightblue; 
+    text-align: center; 
+    color: black;
+}
+h3{
+    background-color: cadetblue; 
+    text-align: center; 
+    color: black;
+}
+h4{
+    line-height: 0%;
+}
+.img1{
+    height: 150px; 
+    width: 150px;
+    border: 5px; 
+    border-color: red;
+    border-style: dashed;
+    padding: 30px;
+}
+th{
+    background: lightgray;
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+    padding: 10px;
+}
+tr{
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+}
+td{
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+    padding: 10px;
+}
+table{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.seacreatures{
+    text-align: center;
+    text-decoration: underline;
+    text-transform: capitalize;
+    font-family: monospace;
+    font-size: 25px;
+}
+a:link{
+    color: black;
+}
+a:visited{
+    color: gray;
+}
+a:hover{
+    color: red;
+}
+a:active{
+    color: orange;
+}
