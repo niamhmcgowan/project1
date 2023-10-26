@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" context="IE-edge"
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link href="CS Lab3.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <font color="red"
+    <h1 style="background-color:yellow;">
+    Zachary Morgan
+    </h1>
+    <h3 style="background-color:yellow;">
+    NJIT zsm8 BArch</h3></font>
+    <font color="00FF00"
+    <br>I am an architectual student at NJIT in HCAD. I am taking this<br>computer science course to hopefully stengthen my skills to use<br>computers as a tool to help wth my projects. I currently work at Robert<br>Wood Johnson University Hospital in New Brunswick and commute to both<br>school and work from home. I commit almost all of my time to these two<br>commitments to help disipline myself to prepare for my future.
+    </font>
+    
+    <br><a href="https://www.njit.edu/academics/degree/bachelor-architecture-barch">
+    NJIT BArch information
+    </a>
+    <br><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS35jf4PX9bEiDwWPureicdULUCIpdEudHo4g&usqp=CAU"> 
+
+    <div>
+         <table border="2" class="table"> 
+            <tr style="background-color:lightgray;">
+                <th width="100">Education</th>
+                <th width="100">Experience</th>
+                <th width="100">Skills</th>
+            </tr>
+            <tr>
+                <td>2021/2023</td>
+                <td>2022</td>
+                <td>---</td>
+            </tr>
+            <tr>
+                <td>3.6 GPA</td>
+                <td>3.65 GPA</td>
+                <td>---</td>
+            </tr>
+            <tr>
+                <td>Sayreville War Memorial<br>High School and<br>Middlesex College</td>
+                <td>Work in Robert Wood Johnson<br>University Hospital</td>
+                <td>Proficcient in Excel, Word,<br>AutoCad, and Rhino</td>
+            </tr>
+        </table>
+    </div>
+    <div>
+        <form>
+
+            <label for="uname">Username</label>
+            <input type="text">
+
+            <label for="fname">First Name</label>
+            <input type="text">
+
+            <label for="lname">Last Name</label>
+            <input type="text">
+
+            <label for="email">Email</label>
+            <input type="email">
+            <br>
+
+            <label for="math">Math</label>
+            <input type="checkbox">
+
+            <label for="architecture">Architecture</label>
+            <input type="checkbox">
+
+            <label for="computer_science">Computer Science</label>
+            <input type="checkbox">
+            <br>
+
+            <label for="math">Math</label>
+            <input type="radio">
+
+            <label for="architecture">Architecture</label>
+            <input type="radio">
+
+            <label for="computer_science">Computer Science</label>
+            <input type="radio">
+            <br>
+
+            <input type="submit"
+        </form>
+    </div>
+    <div>
+        <ul>
+            <li>
+                Architecture Studio ARCH 195</li>
+               <li>Tools and Techniques ARCH 110</li>
+                <li>Computer Programing and Graphic Design CS 104</li>
+                <li>Elementary Probability and Statistics MATH 105</li>
+        </ul>
+    </div>
+    <p>
+        <br> I am a hardworking student that appreciates the company of <br>close friends. If not for the people i met in school, I would not <br>be the person I am today. I've met people that toom a similar path <br>as me as an architect, and others that still impacted me in some other <br>way. I look forward to my stay at NJIT to hopefully find meaning in <br>my work.
+    </p>
+    <ul> 
+        <li>
+            <a href="https://dictionary.cambridge.org/us/dictionary/english/architecture" class="architecture">
+                Architecture
+            </a>
+        </li>
+    </ul>
+    <ul>
+        <li>
+            <a href="https://dictionary.cambridge.org/us/dictionary/english/computer-science" class="computer">
+                
+                Computer Science
+            </a>
+        </li>
+    </ul>
+    <ul>
+        <li>
+            <a href="https://dictionary.cambridge.org/us/dictionary/english/statistics" class="statistics">
+                Statistics
+            </a>
+        </li>
+    </ul>
+</body>
+<style media="screen">
+    ::selection {
+        background-color: yellow;
+    }
+</style>
+</html>
