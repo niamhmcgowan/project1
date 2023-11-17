@@ -1,0 +1,303 @@
+<html>
+<head>
+<link rel="stylesheet" href="code.css"></head>
+<h1 style="background-color:#ee6a94; color:rgb(192, 173, 255);">Abigail Malia-Koudoha</h1>
+<h2 style="background-color:#ff47af; color:rgb(242, 224, 58);">NJIT, agm45, Interior Design</h2>
+<p style="color:white (241, 124, 159);">My name is Abigail Malia-Koudoha. I am first year at NJIT. Some things I enjoy doing is painting and doing hair.</p>
+<a>https://www.njit.edu/</a>
+
+<img src="https://patch.com/img/cdn20/users/1756439/20180213/011155/styles/raw/public/processed_images/njit_campus_center-1518544545-5694.jpg" id="img" style= "width: 494px;" height=" 329px;">
+<div>
+<style>
+table {
+font-family: arial, sans-serif;
+border-collapse: 2px collapse;
+width: 100%;
+margin-top: 100x;
+margin-right: 100x;
+margin-bottom: 100x;
+margin-left: 100x;
+}
+td, th {
+border: 2px solid #0f0e0e;
+text-align: left;
+padding: 10px;
+}
+</style>
+</head>
+<body>
+<h2 style="background-color: lightpink;">Table 1</h2>
+<table>
+<tr>
+<th>Colors</th>
+<th>Food</th>
+<th>Months</th>
+</tr>
+<tr>
+<td>Red</td>
+<td>Salad</td>
+<td>December</td>
+</tr>
+<tr>
+<td>Blue</td>
+<td>Ice Cream</td>
+<td>February</td>
+</tr>
+<tr>
+<td>Pink</td>
+<td>Pasta</td>
+<td>January</td>
+</tr>
+<tr>
+</table>
+</div>
+<div>
+<form>
+<label for="fname">First name:</label><br>
+<input type="text" id="fname" name="fname" value="Abigail"><br>
+<label for="lname">Last name:</label><br>
+<input type="text" id="lname" name="lname" value="Malia-Koudoha">
+<label for="email">Email:</label><br>
+<input type="text" id="email" name="Email" value="agm45@njit.edu"><br>
+</form>
+<h1>Choose your Favorite Subject</h1>
+
+<form action="/action_page.php">
+<input type="checkbox" id="subject1" name="subject1" value="Math 107">
+<label for="subject1"> Math 107</label><br>
+<input type="checkbox" id="subject2" name="subject2" value="Color and Composition">
+<label for="subject2"> Color and Composition</label><br>
+<input type="checkbox" id="subject3" name="subject3" value="History of art & Design">
+<label for="subject3"> History of Art and Design</label><br><br>
+<input type="checkbox" id="subject4" name="subject4" value="English 101">
+<label for="subject4"> English 101</label><br>
+<input type="checkbox" id="subject5" name="subject5" value="Computer Programming">
+<label for="subject5"> Computer Programming</label><br>
+
+
+</form>
+<form>
+<h3>Favorite Subject</h3>
+<p>Select Which One of the Following in Which You Enjoy the Most:</p>
+<input type="radio" id="Math 107" name="fav_subject" value="Math 107">
+<label for="Math 107">Math 107</label><br>
+<input type="radio" id="Color and Composition" name="fav_subject" value="Color and Composition">
+<label for="Color and Composition">Color and Composition</label><br>
+<input type="radio" id="History or Art and Design" name="fav_subject" value="History of Art and Design">
+<label for="History of Art and Design">History of Art and Design</label>
+<input type="radio" id="English 101" name="fav_subject" value="English 101">
+<label for="English 101">English 101</label><br>
+<input type="radio" id="Computer Programming" name="fav_subject" value="English 101">
+<label for="Computer Programming">Computer Programming</label><br>
+
+<input type="submit" value="Submit">
+</form>
+</div>
+<div>
+<ul>
+<li>Color and Composition</li>
+<li>Computer Programming</li>
+<li>Math 107</li>
+<li>History of Art and Design</li>
+<li>English 101 </li>
+</ul>
+</div>
+<div>
+<style>
+img{
+border: 5px dashed;
+padding: 30px;
+color: rgba(166, 0, 255, 0.279);
+}
+</style>
+</div>
+<img src="https://th.bing.com/th/id/R.83f9582dee4ed46750a5501def3720d0?rik=aOICORWMSd5yzw&riu=http%3a%2f%2fwallpapercave.com%2fwp%2fd1oFZMe.jpg&ehk=spXHECCXZ9LoUcW%2b6tI0zu9hJm0SDpV2E6cG9TefIWM%3d&risl=&pid=ImgRaw&r=0 "class=img1
+alt="Beach" width="150in" height="150in">
+<img src="https://wallpapercave.com/wp/wp6344761.jpg"class=img2
+alt="The Weekend" width="150in" height="150in">
+<img src="https://th.bing.com/th/id/OIP.OfneHgyL736N5qkesQosDAHaE2?w=282&h=185&c=7&r=0&o=5&dpr=1.3&pid=1.7"class=img3 
+alt="Rome" width="150in" height="150in">
+</div>
+
+<p class="paragraph"> This is a website I have coded on my own, thus far. It has information about me, my favorite classes at NJIT and more. Click around to see! </p>
+<li><style>
+a:link {
+color: green;
+}
+a:hover {
+color: red;
+}
+</style>
+<a href="https://mail.google.com/mail/u/0/#inbox">Mail</a>
+<li><style>
+a:link {
+color:aqua;
+}
+a:visited {
+color: orange;
+}
+a:hover {
+color:yellow;
+}
+</style> 
+<a href="https://www.instagram.com">Instagram</a></li>
+<li>
+</style>
+<a href="https://www.youtube.com">Youtube</a></li>
+</li></style>
+</ul>
+</html>
+</ul>
+</html>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+<table> <tr> <td>Cell 1</td> <td>Cell 2</td> <td>Cell 3</td> </tr> <tr> <td>Cell 4</td> <td>Cell 5</td> <td>Cell 6</td> </tr> </table>
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Title of the document</title>
+  </head>
+  <body>
+    <tableborder="1">
+      <tr>
+        <th>Education</th>
+        <th>Experience</th>
+      </tr>
+      <tr>
+        <td>NJIT</td>
+        <td>Internship</td>
+      </tr>
+      <tr>
+        <td>College of Art+Design</td>
+        <td>Interior Design Major</td>
+      </tr>
+    </table>
+  </body>
+</html>
+<table class="table">
+  <thead>
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">First</th>
+      <th scope="col">Last</th>
+      <th scope="col">Handle</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td>Abigail</td>
+      <td>Malia</td>
+      <td>@agm45</td>
+    </tr>
+  
+  </tbody>
+</table>
+
+
+<div class="dropdown">
+    <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown">
+      Dropdown button
+    </button>
+    <ul class="dropdown-menu">
+         <li><a class="dropdown-item" href="#">https://docs.google.com/document/u/0/?tgif=d</a></li>
+         <li><a class="dropdown-item" href="#">https://drive.google.com/drive/my-drive</a></li>
+         <li><a class="dropdown-item" href="#">https://calendar.google.com/calendar/u/1/r</a></li>
+    </ul>
+  </div>
+  <div>
+
+    <html>
+      <head>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <style>
+      .collapsible {
+        background-color: #777;
+        color: white;
+        cursor: pointer;
+        padding: 18px;
+        width: 100%;
+        border: none;
+        text-align: left;
+        outline: none;
+        font-size: 25px;
+      }
+      
+      .active, .collapsible:hover {
+        background-color: #555;
+      }
+      
+      .content {
+        padding: 0 18px;
+        display: none;
+        overflow: hidden;
+        background-color: #f1f1f1;
+      }
+      </style>
+      </head>
+      <body>
+      
+      
+      <p>Collapsible Set:</p>
+      <button type="button" class="collapsible">Open Section 1: Blueberry Muffins</button>
+      <div class="content">
+        <p>At first glance, a blueberry muffin showcases a golden-brown, slightly crumbly exterior, when you break it open, you're greeted by a burst of enticing aroma, a delightful combination of baked goodness, sweet blueberries, and a hint of vanilla. The interior of the muffin is a tender and moist crumb, generously studded with plump, juicy blueberries. The blueberries, often slightly softened during baking, release their natural juices, creating a heavenly contrast to the softness of the muffin itself.</p>
+      </div>
+      <button type="button" class="collapsible">Open Section 2: Lemon Glaze Cookies</button>
+      <div class="content">
+        <p>Lemon glaze cookies are a delightful fusion of citrusy freshness and sugary sweetness, encapsulating the essence of sunshine in a single bite. Visually, lemon glaze cookies often appear as delicate, golden-brown discs, slightly puffed and invitingly soft to the touch. Their surface is adorned with a glossy, translucent layer of lemon glaze, the glaze adds a hint of elegance, hinting at the delightful citrus flavor hidden within.</p>
+      </div>
+      <button type="button" class="collapsible">Open Section 3: Strawberry Shortcake</button>
+      <div class="content">
+      <p>Strawberry shortcake, with layers of moist cake, velvety frosting, and vibrant strawberries adorning the top, the cake itself is a soft, tender creation, often infused with pureed strawberries that lend it a natural pink hue. Each forkful is a delicate balance of lightness and richness, melting in your mouth with a burst of flavor. The crumb is airy and moist, a testament to the baker's expertise, making every bite a delightful experience.</p>
+      </p>
+      </div>
+      
+      <script>
+      var coll = document.getElementsByClassName("collapsible");
+      var i;
+      
+      for (i = 0; i < coll.length; i++) {
+        coll[i].addEventListener("click", function() {
+          this.classList.toggle("active");
+          var content = this.nextElementSibling;
+          if (content.style.display === "block") {
+            content.style.display = "none";
+          } else {
+            content.style.display = "block";
+          }
+        });
+      }
+      </script>
+      
+      </body>
+      </html>
+
+</div>
+<script>
+    let num1 = 45;
+    let num2 = 25;
+            
+    console.log(num1+num2);
+    console.log(num1-num2);
+    console.log(num1*num2);
+     
+    var score = 95;
+             
+    function calculateGrade(score){
+    if(score>=90){
+      console.log("You scored " + score + " which is an A.");
+   } else if(score>=80){
+      console.log("You scored " + score + " which is a B.");
+   }else if(score>=70){
+      console.log("You scored " + score + " which is a C.");
+   }else if(score>=60){
+      console.log("You scored " + score + " which is a D.");
+   }else{
+      console.log("You scored " + score + " which is an F.");
+      }
+      }
+   calculateGrade(score);
+  </script>
