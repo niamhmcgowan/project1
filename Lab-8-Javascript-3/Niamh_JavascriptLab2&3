@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>JavaScriptLabs</head>
+    <body>
+        <button id="ChangeTextBtn">Click Me!</button>
+        <p id="displayText"></p>
+
+    <script>
+        document.getElementById("ChangeTextBtn").addEventListener("click", myFunction);
+        function myFunction() {
+        alert ("Hello, JavaScript World!");
+        }
+        document.getElementById("submit").addEventListener()
+    </script>
+        <div></div>
+    <script type="text/JavaScript">
+        function validateForm() {
+            if (document.myForm.username.value == "" ) {
+                alert("ERROR");
+                document.myForm.username.focus () ;
+                return false
+            }
+            if (document.myForm.password.value == "") {
+                alert("ERROR");
+                document.myForm.password.focus () ;
+                return false
+            }
+        }
+    </script>
+    <form name="myForm">
+        Username: <input> type="text" Username="username" </input>
+        Password: <input> type="text" Password="password" </input>
+         <input> type="submit" value="Submit" </input>
+    </form>
+    </script>
+</body>
+</html>
