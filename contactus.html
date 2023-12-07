@@ -1,0 +1,62 @@
+<!DOCTYPE html> 
+<html lang="english">
+
+<head>
+    <link rel="stylesheet" href="stylewebsite.css">
+    <title> Muffins for 5ive </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="https://pngimg.com/uploads/muffin/muffin_PNG104.png">
+    <meta charset="utf-8">
+</head>
+
+<body>
+
+    <h1 class="title"> Say Hello!</h1>
+
+    <img src="https://pngimg.com/uploads/muffin/muffin_PNG80.png" alt="Muffis" class="img1">
+    <img src="https://pngimg.com/uploads/muffin/muffin_PNG80.png" alt="Muffis" class="img2">
+
+    <div class="navbar"> 
+        <ul>
+            <li><a href="file:///C:/Users/Valen/OneDrive/Documents/Cs104/website.html">Home</a></li>
+            <li><a href="file:///C:/Users/Valen/OneDrive/Documents/Cs104/websiteptrecipe2.html">recipies</a></li>
+            <li><a href="file:///C:/Users/Valen/OneDrive/Documents/Cs104/webistept3contact.html">Our team</a></li>
+            <li><a href="file:///C:/Users/Valen/OneDrive/Documents/Cs104/contactus.html">Contact us</a></li>
+
+        </ul>
+    </div>
+
+    <script>
+        // JavaScript to handle the scrolling behavior
+        let prevScrollPos = window.pageYOffset;
+
+        window.onscroll = function() {
+            let currentScrollPos = window.pageYOffset;
+
+            if (prevScrollPos > currentScrollPos) {
+                document.querySelector("header").style.top = "0";
+            } else {
+                document.querySelector("header").style.top = "-60px"; // Adjust this value based on your header height
+            }
+
+            prevScrollPos = currentScrollPos;
+        }
+    </script>
+
+    <h1> Get in touch with us! </h1>
+    <section class="contact-form">
+        <div class="form-container">
+            <form id="form">
+                <label for="fname"> First Name </label><br>
+                <input type="text" id="fname" name="fname"><br>
+                <label for="lname"> Last Name </label><br>
+                <input type="text" id="lname" name="lname"><br>
+                <label for="email"> Email </label><br>
+                <input type="text" id="email" name="email"><br>
+                <label for="message"> Message </label><br>
+                <input type="message" id="message" name="message"><br>
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+    </section>
+</body>

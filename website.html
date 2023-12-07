@@ -3,26 +3,113 @@
 
 <head>
     <link rel="stylesheet" href="stylewebsite.css">
-    <title> Muffins for 5ive </title>
+    <title> Muffins for 5 </title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="https://pngimg.com/uploads/muffin/muffin_PNG104.png">
+    <meta charset="utf-8">
 </head>
 
 <body>
 
-    <h1 class="title"> Muffins for 5ive</h1>
-    <h2>This is a cookbook on how to prepare delicious muffins to share with friends and family</h2>
-
+    <h1 class="title"> Muffins for 5</h1>
     <img src="https://pngimg.com/uploads/muffin/muffin_PNG80.png" alt="Muffis" class="img1">
     <img src="https://pngimg.com/uploads/muffin/muffin_PNG80.png" alt="Muffis" class="img2">
 
-    <div class="navbar">
+    <div class="navbar"> 
         <ul>
             <li><a href="file:///C:/Users/Valen/OneDrive/Documents/Cs104/website.html">Home</a></li>
             <li><a href="file:///C:/Users/Valen/OneDrive/Documents/Cs104/websiteptrecipe2.html">recipies</a></li>
-            <li><a href="file:///C:/Users/Valen/OneDrive/Documents/Cs104/webistept3contact.html">Contact</a></li>
+            <li><a href="file:///C:/Users/Valen/OneDrive/Documents/Cs104/webistept3contact.html">Our team</a></li>
+            <li><a href="file:///C:/Users/Valen/OneDrive/Documents/Cs104/contactus.html">Contact us</a></li>
+
         </ul>
     </div>
+
+    <h1 class="titlewelcome"> Welcome to our virtual coobook on how to prepare simple and easy delicous muffins</h1>
+    <h2 class="homepagetitle"> Don't worry they are so simple that you won't have to burn your house donw in the process, we promise.</h2>
+
+
+    <div>
+        <img src="https://th.bing.com/th/id/R.3df9c43d9a041e81e2aebfe94dc18298?rik=uerFX8G5QQi%2bpw&pid=ImgRaw&r=0" alt="" class="imgrecipehome">
+        <img src="https://th.bing.com/th/id/R.6a8e707c3da7a770fced48aaa5d9ee8f?rik=PpBeTEMbuuH75g&pid=ImgRaw&r=0" alt=""class="imgrecipehome">
+        <img src="https://thekittchen.com/wp-content/uploads/2018/10/Best-Cornbread-Muffin-Recipe.jpg" alt=""class="imgrecipehome">
+        <img src="https://i1.wp.com/jamesandeverett.com/wp-content/uploads/2018/04/Jalapeno_cheddar_cornbread_muffin_5.jpg?w=1425&ssl=1" alt=""class="imgrecipehome">
+        <img src="https://www.thecookierookie.com/wp-content/uploads/2018/07/pumpkin-muffins-4-of-8.jpg" alt=""class="imgrecipehome">
+        <img src="https://thekittchen.com/wp-content/uploads/2019/03/Lemon-Ricotta-Raspberry-Muffins-4.jpg" alt=""class="imgrecipehome">
+        <img src="https://i1.wp.com/theantijunecleaver.com/wp-content/uploads/2015/07/4X6A5923b.jpg?resize=853%2C1280" alt=""class="imgrecipehome">
+        <img src="https://wonkywonderful.com/wp-content/uploads/2017/11/costco-chocolate-muffin-recipe-9.jpg" alt="" class="imgrecipehome">
+    </div>
+
+    <h1>_____________________________________
+    </h1>
+
+    <h2 class="moreinfotitle"> Do you want to know more? Check down bellow! </h2>
+
+
+    <button type="button" class="collapsible">Chocolate Muffin</button>
+    <div class="content">
+        <p>A chocolate muffin is a delectable baked treat that combines the richness of chocolate with the moist and
+            fluffy texture of a traditional muffin. Typically, it is made from a batter that includes basic ingredients such
+            as flour, sugar, baking powder, eggs, and butter, with the key addition of cocoa powder or melted chocolate to
+            infuse the distinct chocolate flavor.
+        </p>
+    </div>
+
+    <button type="button" class="collapsible">Corn Muffin</button>
+    <div class="content">
+        <p>A corn muffin is a savory or slightly sweet baked item made primarily from cornmeal.
+            It is a popular and versatile quick bread that can be enjoyed as a side dish or snack.
+            The key ingredient, cornmeal, gives the muffin a distinctive golden color and a slightly gritty texture,
+            contributing to its characteristic taste.
+        </p>
+    </div>
+
+    <button type="button" class="collapsible">Banana Muffin</button>
+    <div class="content">
+        <p>A banana muffin is a delightful baked good that showcases the natural
+            sweetness and flavor of ripe bananas. This moist and tender treat is a variation of the
+            traditional muffin, incorporating mashed bananas into the batter to create a distinct taste and texture.
+        </p>
+    </div>
+
+    <button type="button" class="collapsible">Pumpkin Muffin</button>
+    <div class="content">
+        <p>A pumpkin muffin is a delightful baked good that captures the warm,
+            comforting essence of pumpkin. This seasonal treat is particularly popular during the fall months,
+            and it incorporates the flavors of pumpkin spice, cinnamon, and nutmeg, creating a deliciously spiced muffin.
+        </p>
+    </div>
+
+    <button type="button" class="collapsible"> Rasberry Muffin</button>
+    <div class="content">
+        <p> A raspberry muffin is a delicious baked treat that features the vibrant and slightly tart flavor of raspberries.
+            These muffins are a delightful combination of a moist and tender crumb with bursts of juicy raspberries throughout, creating
+            a balance of sweetness and tanginess.
+
+        </p>
+    </div>
+
+
+    <script>
+        var collapsibles = document.querySelectorAll('.collapsible');
+
+        collapsibles.forEach(function (collapsible) {
+            collapsible.addEventListener('click', function () {
+                var content = this.nextElementSibling;
+
+                if (content.style.display === 'block') {
+                    content.style.display = 'none';
+                } else {
+                    content.style.display = 'block';
+                }
+            });
+        });
+    </script>
+
+    <footer>
+        <p>&copy; Thank you for visiting our website. 
+            <br class="footertext">All rights reserved.</p>
+    </footer>
 
 </body>
 </html>
